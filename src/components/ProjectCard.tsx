@@ -3,12 +3,12 @@
 interface ProjectCardProps {
     title: string;
     description?: string;
-    imageSrc?: string | null;
+    imageSrc?: string;
 }
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageSrc/*, ...rest*/ }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageSrc = '', ...rest }) => {
     return (
-        <div className="bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700" data-aos="fade-up">
-            <img src="./vscode-extension.png" alt="VS Code Extension" className="w-full h-48 object-cover" />
+        <div className="bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700" data-aos="fade-up" {...rest}>
+            <img src={imageSrc} alt="VS Code Extension" className="w-full h-48 object-cover" />
             <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-primary">{title}</h3>
                 {description && <p className="text-gray-300 mb-4">{description}</p>}

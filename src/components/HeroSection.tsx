@@ -14,7 +14,7 @@ const HeroSection = () => {
                     </div>
 
                     <div className="flex flex-wrap gap-6 justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-                        <a href="#portoflio" className="min-w-40 px-8 py-3 bg-gradient-to-r from-primary to-secondary rounded-full text-white font-semibold hover:opacity-90 transition-all duration-300 transform hover:scale-105">
+                        <a href="#portfolio" className="min-w-40 px-8 py-3 bg-gradient-to-r from-primary to-secondary rounded-full text-white font-semibold hover:opacity-90 transition-all duration-300 transform hover:scale-105">
                             Portfolio
                         </a>
                         <a href="#contact" className="min-w-40 border-2 border-light/40 px-8 py-3 text-light font-semibold rounded-full hover:border-primary transition-all duration-300 transform hover:scale-105">
