@@ -13,10 +13,10 @@ I'm Mohammad Saquib, a Fullstack MERN Developer with a B.Tech in Computer Scienc
 
 ## Skills
 
-- **Frontend**: React.js, HTML5, CSS3, JavaScript
+- **Frontend**: React.js, HTML5, CSS3, JavaScript, TypeScript
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Others**: TypeScript, React Native
+- **Others**: React Native
 
 ## Portfolio
 
