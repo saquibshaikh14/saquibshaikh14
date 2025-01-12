@@ -26,7 +26,7 @@ const HeroSection = () => {
                         <a href="https://github.com/saquibshaikh14" target="_blank" className="p-2 rounded-full bg-light/20 hover:bg-light/35 transition-all duration-300 transform hover:scale-105">
                             <img src={github_png} alt="github-icon" className="h-10 w-10" />
                         </a>
-                        <a href="https://likedin.com/in/saquibshaikh14" target="_blank" className="p-2 rounded-full bg-light/20 hover:bg-light/35 transition-all duration-300 transform hover:scale-105">
+                        <a href="https://linkedin.com/in/saquibshaikh14" target="_blank" className="p-2 rounded-full bg-light/20 hover:bg-light/35 transition-all duration-300 transform hover:scale-105">
                             <img src={linkedin_png} alt="github-icon" className="h-10 w-10" />
                         </a>
                     </div>
