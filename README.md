@@ -8,7 +8,7 @@ I'm Mohammad Saquib, a Fullstack MERN Developer with a B.Tech in Computer Scienc
 
 ## Experience
 
-- **3+ Years** as a Fullstack Developer
+- **3.5+ Years** as a Fullstack Developer
 - Specializing in secure, scalable web applications and payment gateway integrations
 
 ## Skills
