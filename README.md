@@ -38,6 +38,3 @@ Feel free to reach out to me via email or connect with me on LinkedIn.
 - [GitHub](https://github.com/saquibshaikh14)
 - [Website](https://msaquib.com)
 
----
-
-&copy; 2024 Mohammad Saquib. All rights reserved.
