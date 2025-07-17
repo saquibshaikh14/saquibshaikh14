@@ -1,6 +1,6 @@
 # Mohammad Saquib
 
-Welcome to my portfolio! I am a Fullstack MERN Developer with over 3 years of experience in building secure, scalable, and high-performing web applications. I specialize in payment gateway integrations across multiple eCommerce platforms, combining expertise in frontend UI development, backend services, and API integration.
+Welcome to my portfolio! I am a Fullstack MERN Developer with over 3.5 years of experience in building secure, scalable, and high-performing web applications. I specialize in payment gateway integrations across multiple eCommerce platforms, combining expertise in frontend UI development, backend services, and API integration.
 
 ## About Me
 
