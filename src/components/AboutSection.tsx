@@ -12,7 +12,7 @@ const AboutSection = () => {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="order-last md:order-first space-y-6" data-aos="fade-right">
                         <p className="text-lg text-gray-300 leading-relaxed">
-                            I'm Mohammad Saquib, Fullstack MERN Developer with over 3.5 years of experience in building secure, scalable, and high-performing web applications. I specialize in payment gateway integrations across multiple eCommerce platforms, combining expertise in frontend UI development, backend services, and API integration.
+                            I'm Mohammad Saquib, Fullstack MERN Developer with nearly 4 years of experience in building secure, scalable, and high-performing web applications. I specialize in payment gateway integrations across multiple eCommerce platforms, combining expertise in frontend UI development, backend services, and API integration.
                         </p>
 
                         <div className="grid grid-cols-2 gap-6">
@@ -23,7 +23,7 @@ const AboutSection = () => {
                             </div>
                             <div className="p-6 bg-gray-800/50 rounded-lg border border-gray-700" data-aos="fade-up" data-aos-delay="300">
                                 <h4 className="text-primary font-semibold text-xl mb-2">Experience</h4>
-                                <p className="text-gray-300">3.5+ Years</p>
+                                <p className="text-gray-300">4 Years</p>
                                 <p className="text-gray-400">Fullstack Developer</p>
                             </div>
                         </div>
