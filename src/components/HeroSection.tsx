@@ -9,8 +9,8 @@ const HeroSection = () => {
 
                     <div data-aos="fade-up" className="space-y-6">
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">Hi, I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-purple-600 animate-gradient">Saquib</span></h1>
-                        <p className="text-light/80 text-xl md:text-2xl font-medium">Full-Stack MERN Developer</p>
-                        <p className="text-lg text-light/60 max-w-3xl mx-auto">Passionate Full-Stack Developer with 4 years of experience in building web applications using React.js and Node.js, along with payment gateway integrations for e-commerce solutions.</p>
+                        <p className="text-light/80 text-xl md:text-2xl font-medium">Full Stack Developer</p>
+                        <p className="text-lg text-light/60 max-w-3xl mx-auto">Full Stack Developer with 4.5 years of experience delivering scalable web applications across enterprise environments using React, Node.js, TypeScript, cloud services, payments, and AI-driven automation.</p>
                     </div>
 
                     <div className="flex flex-wrap gap-6 justify-center items-center" data-aos="fade-up" data-aos-delay="200">
@@ -35,8 +35,9 @@ const HeroSection = () => {
                         <span className="rounded-full bg-light/10 px-4 py-2">Node</span>
                         <span className="rounded-full bg-light/10 px-4 py-2">Express</span>
                         <span className="rounded-full bg-light/10 px-4 py-2">React</span>
-                        <span className="rounded-full bg-light/10 px-4 py-2">Redux</span>
-                        <span className="rounded-full bg-light/10 px-4 py-2">MongoDB</span>
+                        <span className="rounded-full bg-light/10 px-4 py-2">TypeScript</span>
+                        <span className="rounded-full bg-light/10 px-4 py-2">Google Cloud</span>
+                        <span className="rounded-full bg-light/10 px-4 py-2">Dialogflow CX</span>
                     </div>
 
                 </div>

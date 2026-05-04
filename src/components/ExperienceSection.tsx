@@ -7,10 +7,14 @@ const ExperienceSection = () => {
         { name: 'CSS 3', icon: 'https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png', star: 4, shadow: 'shadow-blue-500' },
         { name: 'JavaScript', icon: 'https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png', star: 4, shadow: 'shadow-yellow-500' },
         { name: 'React', icon: 'https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png', star: 4, shadow: 'shadow-blue-300' },
+        { name: 'TypeScript', icon: 'https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png', star: 4, shadow: 'shadow-blue-600' },
         { name: 'Node.js', icon: 'https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png', star: 4, shadow: 'shadow-green-500' },
         { name: 'Express', icon: 'https://img.icons8.com/?size=100&id=WNoJgbzDr3i2&format=png', stars: 4, shadow: 'shadow-gray-100' },
         { name: 'MongoDB', icon: 'https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png', stars: 3, shadow: 'shadow-green-700' },
-        { name: 'React Native', icon: 'https://img.icons8.com/?size=100&id=123603&format=png', stars: 2, shadow: 'shadow-blue-200' },
+        { name: 'Google Cloud', icon: 'https://img.icons8.com/?size=100&id=fpGM2cINbbu4&format=png', star: 3, shadow: 'shadow-blue-400' },
+        { name: 'AWS', icon: 'https://img.icons8.com/?size=100&id=33039&format=png', star: 3, shadow: 'shadow-orange-400' },
+        { name: 'React Native', icon: 'https://img.icons8.com/?size=100&id=123603&format=png', star: 2, shadow: 'shadow-blue-200' },
+        { name: 'Vitest', icon: 'https://vitest.dev/logo.svg', star: 3, shadow: 'shadow-yellow-400' },
     ]);
 
     return (

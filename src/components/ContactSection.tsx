@@ -9,9 +9,13 @@ const ContactSection = () => {
                 </div>
                 <div className="max-w-3xl mx-auto">
                     <div className="flex flex-wrap justify-center gap-8" data-aos="fade-up">
-                        <a href="mailto:contact@msaquib.com" className="flex justify-center items-center gap-4 px-7 py-4 bg-gray-800/50 rounded-full border border-gray-600 hover:border-primary transition-colors">
+                        <a href="mailto:saquibmd82@gmail.com" className="flex justify-center items-center gap-4 px-7 py-4 bg-gray-800/50 rounded-full border border-gray-600 hover:border-primary transition-colors">
                             <img src="https://img.icons8.com/?size=100&id=eKlyMs0XteXZ&format=png" alt="Email-icon" className="w-6 h-6" />
-                            <span>contact@msaquib.com</span>
+                            <span>saquibmd82@gmail.com</span>
+                        </a>
+                        <a href="tel:+919155533666" className="flex justify-center items-center gap-4 px-7 py-4 bg-gray-800/50 rounded-full border border-gray-600 hover:border-primary transition-colors">
+                            <span className="text-primary font-bold">+91</span>
+                            <span>9155533666</span>
                         </a>
                         <a href="https://linkedin.com/in/saquibshaikh14" className="flex justify-center items-center gap-4 px-7 py-4 bg-gray-800/50 rounded-full border border-gray-600 hover:border-primary transition-colors">
                             <img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png" alt="LinkedIn-icon" className="w-6 h-6" />

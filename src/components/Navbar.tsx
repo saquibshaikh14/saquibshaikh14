@@ -19,7 +19,7 @@ const Navbar = () => {
                                 <a href="#about" className="hover:text-primary transition-colors">About</a>
                             </li>
                             <li>
-                                <a href="#experience" className="hover:text-primary transition-colors">Experience</a>
+                                <a href="#experience" className="hover:text-primary transition-colors">Skills</a>
                             </li>
                             <li>
                                 <a href="#portfolio" className="hover:text-primary transition-colors">Portfolio</a>
@@ -47,7 +47,7 @@ const Navbar = () => {
                         <a href="#about" className="hover:text-primary transition-colors block px-3 py-2" data-action="close">About</a>
                     </li>
                     <li>
-                        <a href="#experience" className="hover:text-primary transition-colors block px-3 py-2" data-action="close">Experience</a>
+                        <a href="#experience" className="hover:text-primary transition-colors block px-3 py-2" data-action="close">Skills</a>
                     </li>
                     <li>
                         <a href="#portfolio" className="hover:text-primary transition-colors block px-3 py-2" data-action="close">Portfolio</a>
