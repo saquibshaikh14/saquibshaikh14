@@ -29,6 +29,9 @@ An extension to easily insert customizable signatures into code, enhancing produ
 ### [Node.js 2FA Implementation](https://github.com/saquibshaikh14/nodejs-2fa-implementation)
 A practical project demonstrating Two-Factor Authentication in a Node.js application using Speakeasy and Google Authenticator.
 
+### [Offline Notes](https://notes.msaquib.com)
+A private, offline-first notes workspace that stores your writing locally in the browser storage without server synchronization, featuring a clean, distraction-free drafting environment.
+
 ## Contact Me
 
 Feel free to reach out to me via email or connect with me on LinkedIn.
