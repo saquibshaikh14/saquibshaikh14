@@ -1,46 +1,69 @@
-# Mohammad Saquib
+<div align="center">
 
-Welcome to my portfolio! I am a Full Stack Developer with 4.5 years of experience building secure, scalable, and high-performing web applications across enterprise environments. I work with React, Node.js, TypeScript, cloud services, payment integrations, eCommerce platforms, and AI-driven conversational workflows.
+# Mohammad Saquib
+### Senior Software Engineer | Full Stack
+
+[![Website](https://img.shields.io/badge/Website-msaquib.com-8174A0?style=for-the-badge&logo=google-chrome&logoColor=white)](https://msaquib.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-saquibshaikh14-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saquibshaikh14)
+[![GitHub](https://img.shields.io/badge/GitHub-saquibshaikh14-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saquibshaikh14)
+
+<p align="center">
+  <strong>Senior Software Engineer with 4.8+ years of experience engineering scalable web applications, microservices, and AI solutions using Node.js, TypeScript, React, cloud services, and payment integrations.</strong>
+</p>
+
+---
+
+</div>
 
 ## About Me
 
-I'm Mohammad Saquib, a Full Stack Developer with a B.Tech in Computer Science. I enjoy building practical web products that combine polished frontend experiences, reliable backend services, API integrations, and automation that helps teams move faster.
+I'm a **Senior Software Engineer** with a passion for building reliable, high-performance distributed systems. Over the past **4.8+ years**, I've engineered cloud-native APIs, secure payment integrations, and high-throughput microservices across enterprise environments. Currently, I focus on developing serverless tool APIs, real-time agent workflows, and AI solutions.
 
-## Experience
+- **Education**: B.Tech in Computer Science & Engineering
+- **Experience**: 4.8+ Years as Senior Software Engineer & Full Stack Developer
+- **Portfolio Website**: [msaquib.com](https://msaquib.com)
 
-- **4.5 Years** as a Full Stack Developer
-- Experience across AI agent tooling, cloud functions, eCommerce platforms, payment gateway integrations, and enterprise dashboards
-- Worked with React, Node.js, TypeScript, Google Cloud, AWS, Dialogflow CX, Vertex AI Agent Builder, Oracle Commerce Cloud, and CyberSource Payment Gateway
+---
 
-## Skills
+## Technical Skills
 
-- **Languages**: JavaScript, TypeScript
-- **Frontend**: React.js, React Native, Redux, RTK, Bootstrap, HTML5, CSS3
-- **Backend**: Node.js, Express.js, NestJS, microservices
-- **Cloud & AI**: Google Cloud, AWS, Dialogflow CX, Vertex AI Agent Builder
-- **Database**: MongoDB, SQL
-- **Testing & Tools**: Jest, React Testing Library, Vitest, Vite, Git, GitHub, Postman, Cursor, Copilot
+| Domain | Technologies |
+| :--- | :--- |
+| **Languages** | JavaScript, TypeScript |
+| **Frontend** | React.js, React Native, Redux + RTK, Bootstrap, HTML5, CSS3, Tailwind CSS |
+| **Backend & APIs** | Microservices, Node.js, Express.js, NestJS, Webhooks & APIs, OpenAPI / Swagger |
+| **Cloud & AI Services** | Google Cloud Platform (GCP), AWS, AI Solutions |
+| **Databases** | MongoDB, SQL |
+| **Tools & Testing** | Git, GitHub, Postman, Jest, React Testing Library, Vitest, Vite, Cursor, Copilot |
 
-## Portfolio
+---
 
-### [VS Code Extension](https://github.com/saquibshaikh14/vscode-add-signature-extension)
-An extension to easily insert customizable signatures into code, enhancing productivity and personalization.
+## Featured Projects
 
-### [Node.js 2FA Implementation](https://github.com/saquibshaikh14/nodejs-2fa-implementation)
-A practical project demonstrating Two-Factor Authentication in a Node.js application using Speakeasy and Google Authenticator.
+### 1. [VS Code Extension (Add Signature)](https://github.com/saquibshaikh14/vscode-add-signature-extension)
+A custom-built VS Code extension designed to enhance productivity by enabling users to add customizable signatures to files effortlessly. The extension supports various file types and offers a seamless way to personalize your codebase with pre-configured templates or manual inputs.
+- **Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=saquibshaikh.vscode-add-signature)
+- **Source Code**: [GitHub Repository](https://github.com/saquibshaikh14/vscode-add-signature-extension)
 
-### [Offline Notes](https://notes.msaquib.com)
-A private, offline-first notes workspace that stores your writing locally in the browser storage without server synchronization, featuring a clean, distraction-free drafting environment.
+### 2. [Node.js 2FA Implementation](https://github.com/saquibshaikh14/nodejs-2fa-implementation)
+A practical project demonstrating how to integrate Two-Factor Authentication (2FA) in a Node.js application using **Speakeasy** and **Google Authenticator**. It emphasizes secure login mechanisms and provides a step-by-step workflow to generate and verify OTPs.
+- **Source Code**: [GitHub Repository](https://github.com/saquibshaikh14/nodejs-2fa-implementation)
 
-## Contact Me
+### 3. [Offline Notes Workspace](https://notes.msaquib.com)
+A private, offline-first notes workspace that stores your writing locally in the browser. It features a clean, distraction-free environment for drafting and project writing, storing all your notes locally in your browser storage without any server sync.
+- **Live Demo**: [notes.msaquib.com](https://notes.msaquib.com)
 
-Feel free to reach out to me via email or connect with me on LinkedIn.
+---
 
+## Contact & Connect
+
+- **Website**: [https://msaquib.com](https://msaquib.com)
 - **Email**: [saquibmd82@gmail.com](mailto:saquibmd82@gmail.com)
-- **Phone**: [+91 9155533666](tel:+919155533666)
-- **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/saquibshaikh14)
+- **LinkedIn**: [linkedin.com/in/saquibshaikh14](https://linkedin.com/in/saquibshaikh14)
+- **GitHub**: [github.com/saquibshaikh14](https://github.com/saquibshaikh14)
 
-## Social Links
+---
 
-- [GitHub](https://github.com/saquibshaikh14)
-- [Website](https://msaquib.com)
+<div align="center">
+  <sub>© 2026 Mohammad Saquib.</sub>
+</div>

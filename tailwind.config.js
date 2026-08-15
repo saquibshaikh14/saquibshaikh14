@@ -1,21 +1,14 @@
-/**
- * author Saquib Shaikh
- * created on 03-01-2025-12h-14m
- * github: https://github.com/saquibshaikh14
- * copyright 2025
-*/
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        // primary: '#4F93FF',
-        // secondary: '#20C997',
         primary: '#A594F9',
         secondary: '#8174A0',
         dark: '#0F172A',
@@ -36,9 +29,7 @@ export default {
           }
         }
       }
-
     },
   },
   plugins: [],
 }
-
