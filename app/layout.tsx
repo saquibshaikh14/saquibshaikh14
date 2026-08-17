@@ -1,11 +1,30 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
+import { Archivo_Black, Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'], display: 'swap' });
+const archivoBlack = Archivo_Black({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-archivo-black',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--font-jetbrains-mono',
+  display: 'swap',
+});
 
 export const viewport: Viewport = {
-  themeColor: '#0F172A',
+  themeColor: '#04040A',
   colorScheme: 'dark',
   width: 'device-width',
   initialScale: 1,
@@ -200,7 +219,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdGraph) }}
         />
       </head>
-      <body className={`${inter.className} bg-dark text-gray-100 min-h-screen antialiased`}>
+      <body className={`${archivoBlack.variable} ${inter.variable} ${jetbrainsMono.variable} ${inter.className} bg-[#04040A] text-[#F0EEFF] min-h-screen antialiased`}>
         {children}
       </body>
     </html>

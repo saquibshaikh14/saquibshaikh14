@@ -12,12 +12,11 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
   skillIcon,
   skillName,
   shadow = 'shadow-gray-700',
-  ...rest
+  className = '',
 }) => {
   return (
     <div
-      className={`bg-gray-800/50 rounded-lg border border-gray-700 p-6 ${shadow} shadow-sm flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300`}
-      {...rest}
+      className={`bg-gray-800/50 rounded-lg border border-gray-700 p-6 ${shadow} shadow-sm flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 ${className}`}
     >
       <div className="w-16 h-16 relative mb-4 flex items-center justify-center">
         <Image

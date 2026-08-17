@@ -4,15 +4,21 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:v1": "NEXT_PUBLIC_PORTFOLIO_VERSION=v1 next dev",
+    "dev:v2": "NEXT_PUBLIC_PORTFOLIO_VERSION=v2 next dev",
     "build": "next build",
+    "build:v1": "NEXT_PUBLIC_PORTFOLIO_VERSION=v1 next build",
+    "build:v2": "NEXT_PUBLIC_PORTFOLIO_VERSION=v2 next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/three": "^0.185.4",
     "aos": "^2.3.4",
     "next": "^15.1.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "three": "^0.185.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.6",

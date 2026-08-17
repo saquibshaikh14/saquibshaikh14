@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const AboutSection = () => {
   return (
@@ -8,13 +8,25 @@ const AboutSection = () => {
     >
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16" data-aos="fade-up">
-          <p className="text-md md:text-lg lg:text-xl mb-2 text-primary">Know More</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">About Me</h2>
+          <p className="text-md md:text-lg lg:text-xl mb-2 text-primary">
+            Know More
+          </p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+            About Me
+          </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="order-last md:order-first space-y-6" data-aos="fade-right">
+          <div
+            className="order-last md:order-first space-y-6"
+            data-aos="fade-right"
+          >
             <p className="text-lg text-gray-300 leading-relaxed">
-              I&apos;m a Senior Software Engineer with a passion for building reliable, high-performance distributed systems. Over the past 4.8+ years, I&apos;ve engineered cloud-native APIs, secure payment integrations, and high-throughput microservices across enterprise environments. Currently, I focus on developing serverless tool APIs, real-time agent workflows, and AI solutions.
+              I&apos;m a Senior Software Engineer with a passion for building
+              reliable, high-performance distributed systems. Over the past 4.8+
+              years, I&apos;ve engineered cloud-native APIs, secure payment
+              integrations, and high-throughput microservices across enterprise
+              environments. Currently, I focus on developing serverless tool
+              APIs, real-time agent workflows, and AI solutions.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -23,16 +35,22 @@ const AboutSection = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h4 className="text-primary font-semibold text-xl mb-2">Education</h4>
+                <h4 className="text-primary font-semibold text-xl mb-2">
+                  Education
+                </h4>
                 <p className="text-gray-300">B.Tech</p>
-                <p className="text-gray-400">Computer Science &amp; Engineering</p>
+                <p className="text-gray-400">
+                  Computer Science &amp; Engineering
+                </p>
               </div>
               <div
                 className="p-6 bg-gray-800/50 rounded-lg border border-gray-700"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h4 className="text-primary font-semibold text-xl mb-2">Experience</h4>
+                <h4 className="text-primary font-semibold text-xl mb-2">
+                  Experience
+                </h4>
                 <p className="text-gray-300">4.8+ Years</p>
                 <p className="text-gray-400">Senior Software Engineer</p>
               </div>

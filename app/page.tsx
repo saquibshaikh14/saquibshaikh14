@@ -1,21 +1,12 @@
-import AOSInit from '@/components/AOSInit';
-import Navbar from '@/components/Navbar';
-import HeroSection from '@/components/HeroSection';
-import AboutSection from '@/components/AboutSection';
-import ExperienceSection from '@/components/ExperienceSection';
-import PortfolioSection from '@/components/PortfolioSection';
-import ContactSection from '@/components/ContactSection';
+import PortfolioV1 from '@/components/version1';
+import PortfolioV2 from '@/components/version2';
 
 export default function Home() {
-  return (
-    <main className="bg-dark text-gray-100 min-h-screen">
-      <AOSInit />
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <ExperienceSection />
-      <PortfolioSection />
-      <ContactSection />
-    </main>
-  );
+  const version = process.env.NEXT_PUBLIC_PORTFOLIO_VERSION?.toLowerCase();
+
+  if (version === 'v1' || version === '1') {
+    return <PortfolioV1 />;
+  }
+
+  return <PortfolioV2 />;
 }
