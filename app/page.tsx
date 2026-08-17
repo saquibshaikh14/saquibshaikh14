@@ -1,12 +1,15 @@
-import PortfolioV1 from '@/components/version1';
-import PortfolioV2 from '@/components/version2';
+import dynamic from 'next/dynamic';
+
+const isV1 =
+  process.env.NEXT_PUBLIC_PORTFOLIO_VERSION === 'v1' ||
+  process.env.NEXT_PUBLIC_PORTFOLIO_VERSION === '1';
+
+const Portfolio = dynamic(
+  () => (isV1 ? import('@/components/version1') : import('@/components/version2')),
+  { ssr: true }
+);
 
 export default function Home() {
-  const version = process.env.NEXT_PUBLIC_PORTFOLIO_VERSION?.toLowerCase();
-
-  if (version === 'v1' || version === '1') {
-    return <PortfolioV1 />;
-  }
-
-  return <PortfolioV2 />;
+  return <Portfolio />;
 }
+
