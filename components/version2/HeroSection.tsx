@@ -41,12 +41,14 @@ export default function HeroSection({ mouse, onNavigate }: HeroSectionProps) {
           <div className="hero-actions">
             <button
               className="btn-primary"
+              aria-label="Scroll down to View Projects"
               onClick={() => onNavigate("projects")}
             >
               View Projects
             </button>
             <button
               className="btn-secondary"
+              aria-label="Scroll down to Contact section"
               onClick={() => onNavigate("contact")}
             >
               Get in Touch

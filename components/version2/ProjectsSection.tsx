@@ -44,6 +44,7 @@ function ProjectCard({
                 target="_blank"
                 rel="noreferrer"
                 className="project-link"
+                aria-label={`View source code for ${project.title} on GitHub`}
               >
                 GitHub →
               </a>
@@ -54,6 +55,7 @@ function ProjectCard({
                 target="_blank"
                 rel="noreferrer"
                 className="project-link"
+                aria-label={`View live application for ${project.title}`}
               >
                 Live →
               </a>

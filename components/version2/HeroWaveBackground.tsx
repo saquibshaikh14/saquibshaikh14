@@ -36,7 +36,7 @@ export default function HeroWaveBackground({ mouse }: HeroWaveBackgroundProps) {
       antialias: true,
       powerPreference: 'high-performance',
     });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setPixelRatio(Math.min(typeof window !== 'undefined' ? window.devicePixelRatio : 1, 1.5));
     renderer.setSize(getWidth(), getHeight());
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     container.appendChild(renderer.domElement);

@@ -27,6 +27,7 @@ export default function ContactSection() {
             target="_blank"
             rel="noreferrer"
             className="contact-card"
+            aria-label={`Connect with Mohammad Saquib on ${link.platform} (${link.handle})`}
           >
             <span className="contact-icon">{link.icon}</span>
             <div>
