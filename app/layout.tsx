@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Archivo_Black, Inter, JetBrains_Mono } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 
 const archivoBlack = Archivo_Black({
@@ -217,6 +218,19 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdGraph) }}
+        />
+        <Script
+          id="microsoft-clarity"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "yka3o3vhv9");
+            `,
+          }}
         />
       </head>
       <body className={`${archivoBlack.variable} ${inter.variable} ${jetbrainsMono.variable} ${inter.className} bg-[#04040A] text-[#F0EEFF] min-h-screen antialiased`}>
